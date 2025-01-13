@@ -269,6 +269,9 @@ section {
   justify-content: space-evenly;
   text-align: center;
 }
+.icon_content > div {
+  margin: 0 auto;
+}
 .icon_content > div div {
   transition: 0.5s;
 }
@@ -463,7 +466,7 @@ section {
 .card > .img_area img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: fill;
   filter: grayscale(70%);
   transition: 0.3s;
 }
